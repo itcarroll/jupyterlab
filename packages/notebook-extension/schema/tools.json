@@ -16,7 +16,6 @@
           "/editable": {
             "title": "Editable",
             "type": "boolean",
-            "default": true,
             "oneOf": [
               {
                 "const": true,
@@ -31,7 +30,6 @@
           "/slideshow/slide_type": {
             "title": "Slide Type",
             "type": "string",
-            "default": "",
             "oneOf": [
               {
                 "const": "",
