@@ -175,7 +175,8 @@ namespace Private {
     // use loaded marked plugins
     return Promise.all([
       (async () => (await import('marked-gfm-heading-id')).gfmHeadingId())(),
-      (async () => (await import('marked-mangle')).mangle())()
+      (async () => (await import('marked-mangle')).mangle())(),
+      (async () => (await import('marked-alert')).default())()
     ]);
   }
 
